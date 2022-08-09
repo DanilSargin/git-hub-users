@@ -1,0 +1,25 @@
+.searchBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button {
+  width: 10%;
+  height: 52px;
+  color: gray;
+  border: none;
+  border-radius: 10px;
+}
+
+
+.input {
+  width: 85%;
+  height: 50px;
+  border-radius: 12px;
+  border-width: 1px;
+  border-color: lightgrey;
+  padding-left: 10px;
+}

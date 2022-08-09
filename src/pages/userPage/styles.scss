@@ -1,0 +1,37 @@
+.userInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+  }
+  span {
+    font-weight: normal;
+  }
+  p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+}
+
+.bio {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.searchRepoResult {
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
